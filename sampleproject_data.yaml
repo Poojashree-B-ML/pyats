@@ -1,0 +1,16 @@
+TriggerGetRunningConfig:
+  source:
+    pkg: sampleproject
+    class: GetRunningConfig
+  devices:
+    -LEAF1
+
+TriggerCommonSetup:
+  source:
+    pkg: sampleproject
+    class: CommonSetup
+  
+TriggerCommonCleanup:
+  source:
+    pkg: sampleproject
+    class: CommonCleanup
